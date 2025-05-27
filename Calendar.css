@@ -1,0 +1,44 @@
+.calendar {
+  width: 100%;
+  background: white;
+  padding: 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  border: 1px solid black;
+}
+
+.day-header {
+  background: #f0f0f0;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid black;
+}
+
+.cell {
+  border: 1px solid black;
+  height: 100px;
+  padding: 4px;
+  position: relative;
+  background: white;
+}
+
+.date-number {
+  font-weight: bold;
+}
+
+.today {
+  background: #ffeeba;
+}
+
+.event {
+  background: #007bff;
+  color: white;
+  padding: 2px 4px;
+  border-radius: 3px;
+  margin-top: 2px;
+  font-size: 12px;
+}

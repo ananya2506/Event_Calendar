@@ -1,0 +1,22 @@
+.event-form {
+  background: #f9f9f9;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+}
+
+.event-form input,
+.event-form select {
+  display: block;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+}
+
+.event-form button {
+  padding: 8px 15px;
+  background: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

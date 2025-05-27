@@ -1,0 +1,20 @@
+.events-list {
+  margin-top: 20px;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #ccc;
+}
+
+.event-entry {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #eee;
+}
+
+.event-entry button {
+  background: red;
+  color: white;
+  border: none;
+  padding: 4px 10px;
+  float: right;
+}
